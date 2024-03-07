@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#files {
+    margin-bottom: 50px;
+}
+
+#fileTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid black;
+}
+
+#fileTable th, #fileTable td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.preview-image {
+    display: block;
+    margin: auto;
+}
+
+.large {
+    width: 200px;
+    height: auto;
+}
+
+.small {
+    width: 100px;
+    height: auto;
+}
+
+.download-button {
+    display: block;
+    margin: 10px auto;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
